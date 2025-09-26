@@ -1,16 +1,16 @@
 import {Home, Second} from './pages'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   
 
   return (
-    <BrowserRouter>
-      <Routes>
+    <HashRouter>
+      <Routes >
         <Route path='/' element={<Home />} />
-        <Route path='second' element={<Second />} />
+        <Route path='/second' element={<Second />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

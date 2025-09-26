@@ -8,5 +8,6 @@ export default defineConfig({
   server: {
     open: true,
     port: 8001,
-  }
+  },
+  base: '/g-analytics-test'
 })
